@@ -2,7 +2,6 @@
 // For license information, please see license.txt
 
 
-
 frappe.ui.form.on('Biometric Attendance', {
 	from_date: function(frm) {
 		frm.call({
@@ -19,7 +18,6 @@ frappe.ui.form.on('Biometric Attendance', {
 	},
 
 	sync: async function (frm) {
-        frappe.msgprint("Syncing Biometric Attendance Data. Please wait...by gayatri");
 		if (!frm.doc.from_date) {
 			frappe.msgprint(__('Please select From Date'));
 			return;

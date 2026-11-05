@@ -6,6 +6,7 @@
 
 # import frappe
 import frappe
+import zk
 from frappe.model.document import Document
 from datetime import datetime, timedelta
 import re
