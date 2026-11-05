@@ -601,7 +601,7 @@ def sync_data(docname):
 @frappe.whitelist()
 def enqueue_details(docname):
     frappe.enqueue(
-        method="face_biometric_integration.face_biometric_integration.face_biometric_integration.doctype.biometric_attendance.biometric_attendance.run_background",
+        method="face_biometric_integration.face_biometric_integration.doctype.biometric_attendance.biometric_attendance.enqueue_details",
         queue="short",
         timeout=5000,
         is_async=True,
