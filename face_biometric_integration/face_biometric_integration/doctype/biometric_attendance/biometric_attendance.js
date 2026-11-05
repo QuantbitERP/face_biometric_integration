@@ -31,7 +31,7 @@ frappe.ui.form.on('Biometric Attendance', {
 			async () => {
 				try {
 					const r = await frappe.call({
-						method: "face_biometric_integration.face_biometric_integration.face_biometric_integration.doctype.biometric_attendance.biometric_attendance.enqueue_details",
+						method: "face_biometric_integration.face_biometric_integration.doctype.biometric_attendance.biometric_attendance.enqueue_details",
 						args: {
 							docname: frm.doc.name
 						},
