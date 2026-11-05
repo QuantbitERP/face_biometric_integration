@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-11-05 11:21:52.407679",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_zns0o",
+  "naming_series",
+  "section_break_ichee",
+  "from_date",
+  "column_break_a96qx",
+  "to_date",
+  "column_break_irpig",
+  "sync",
+  "section_break_q6w0v",
+  "machine_configuration"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_zns0o",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "BAS-"
+  },
+  {
+   "fieldname": "section_break_ichee",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "column_break_a96qx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "column_break_irpig",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sync",
+   "fieldtype": "Button",
+   "label": "Sync "
+  },
+  {
+   "fieldname": "section_break_q6w0v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "machine_configuration",
+   "fieldtype": "Table",
+   "label": "Machine Configuration",
+   "options": "Machine Configuration"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-11-05 11:21:52.407679",
+ "modified_by": "Administrator",
+ "module": "Face Biometric Integration",
+ "name": "Biometric Attendance",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
