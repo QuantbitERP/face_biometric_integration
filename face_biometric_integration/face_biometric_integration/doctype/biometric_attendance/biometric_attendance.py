@@ -4,7 +4,6 @@
 # import frappe
 import frappe
 from frappe.model.document import Document
-import zk
 from datetime import datetime, timedelta
 import re
 from frappe.utils import now, getdate
